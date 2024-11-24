@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<style>
+    body {
+        margin: 0; /* Remove margens padrão */
+        padding: 0; /* Remove paddings padrão */
+        background-color: #000; /* Fundo preto */
+        color: #fff; /* Textos brancos */
+        display: flex; /* Utiliza Flexbox */
+        justify-content: center; /* Centraliza itens horizontalmente */
+        align-items: center; /* Centraliza itens verticalmente */
+        height: 100vh; /* Altura da tela inteira */
+        font-family: Arial, sans-serif; /* Fonte padrão */
+        text-align: center; /* Centraliza texto */
+    }
+
+    h1 {
+        margin-bottom: 20px; /* Espaço abaixo do título */
+    }
+
+    .button-redondo {
+        width: 250px; /* Largura do botão */
+        height: 200px; /* Altura do botão */
+        border: 4px solid #42db34; /* Borda com cor */
+        border-radius: 40%; /* Deixa o botão arredondado */
+        background-color: #f4f4f4; /* Cor de fundo */
+        color: #42db34; /* Cor do texto */
+        font-size: 18px; /* Tamanho da fonte */
+        font-weight: bold; /* Negrito no texto */
+        text-align: center; /* Centraliza o texto */
+        line-height: 200px; /* Alinha o texto verticalmente */
+        cursor: pointer; /* Muda o cursor para o estilo de botão */
+        transition: 0.3s ease; /* Adiciona uma transição suave para efeitos */
+        margin: 10px; /* Espaçamento entre botões */
+    }
+
+    /* Efeito ao passar o mouse */
+    .button-redondo:hover {
+        background-color: #42db34; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto ao passar o mouse */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    }
+
+    /* Efeito ao clicar */
+    .button-redondo:active {
+        transform: scale(0.95); /* Leve redução ao clicar */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduz a sombra */
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponderada 1</title>
+</head>
+
+<body>
+    <div>
+        <h1>Escolha sua jornada!</h1>
+        <button class="button-redondo" onclick="window.location.href='./augmented_reality/src/index.html'">Realidade aumentada</button>
+        <button class="button-redondo" onclick="window.location.href='./virtual_reality/htmls/index.html'">Realidade virtual</button>
+    </div>
+</body>
+
+</html>
