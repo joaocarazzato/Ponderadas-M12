@@ -1,0 +1,11 @@
+Model Information:
+* title:	Woody Woodpecker Movie Rig
+* source:	https://sketchfab.com/3d-models/woody-woodpecker-movie-rig-a87c99d858ee460d8e8e0c49b8b052a8
+* author:	Guilherme Navarro (https://sketchfab.com/guinavarro.al)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Woody Woodpecker Movie Rig" (https://sketchfab.com/3d-models/woody-woodpecker-movie-rig-a87c99d858ee460d8e8e0c49b8b052a8) by Guilherme Navarro (https://sketchfab.com/guinavarro.al) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,58 @@
+fileFormatVersion: 2
+guid: bf8c8a9964243fc41873d033d34c6c00
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\Models\woodpeaker\scene.bin
+    assetPath: Assets\Models\woodpeaker\scene.bin
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\Object_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\Object_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\woodywoodpecker_Head_6_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\woodywoodpecker_Head_6_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\woodywoodpecker_Tail_1_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\woodywoodpecker_Tail_1_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\woodywoodpecker_Body_1_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\woodywoodpecker_Body_1_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\woodywoodpecker_Body_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\woodywoodpecker_Body_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie002_eyeMAT_baseColor.jpeg
+    assetPath: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie002_eyeMAT_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\woodywoodpecker_Head_1_baseColor.png
+    assetPath: Assets\Models\woodpeaker\textures\woodywoodpecker_Head_1_baseColor.png
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie001_penugem2MAT_baseColor.jpeg
+    assetPath: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie001_penugem2MAT_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie003_rostoMAT_baseColor.jpeg
+    assetPath: Assets\Models\woodpeaker\textures\Woody_Woodpecker_The_Movie003_rostoMAT_baseColor.jpeg
+  reportItems: []

@@ -1,0 +1,11 @@
+Model Information:
+* title:	MR. KRABS
+* source:	https://sketchfab.com/3d-models/mr-krabs-a3b16614c45f4398b44dd392f41a5ffd
+* author:	3D Model Dump (https://sketchfab.com/merterzene)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MR. KRABS" (https://sketchfab.com/3d-models/mr-krabs-a3b16614c45f4398b44dd392f41a5ffd) by 3D Model Dump (https://sketchfab.com/merterzene) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
