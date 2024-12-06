@@ -15,6 +15,7 @@
             <a-asset-item id="steve-minecraft" src="./assets/the_perfect_steve_rigged_by_blender3d.glb"></a-asset-item>
             <a-asset-item id="chicken-minecraft" src="./assets/minecraft_chicken.glb"></a-asset-item>
             <a-asset-item id="tree-minecraft" src="./assets/minecraft_tree.glb"></a-asset-item>
+            <a-asset-item id="egg-minecraft" src="./assets/minecraft_egg.glb"></a-asset-item>
            </a-assets>
 
            <a-sky src="#fundo"></a-sky>
@@ -25,8 +26,11 @@
                 repeat="200 200"
                 scale="100 100 1">
          </a-plane>
-         <a-entity position="4 0 0" rotation="0 90 0">
-          <a-camera></a-camera>
+         <a-entity position="6 0 0" rotation="0 90 0">
+          <a-camera>
+
+            <a-cursor fuse=true></a-cursor>
+          </a-camera>
          </a-entity>
         
 
@@ -47,8 +51,60 @@
          animation-mixer="clip:*; loop: repeat; timeScale: 4.5"
         
          ></a-entity>
-        
+         <a-cylinder scale="0.08 0.08 0.08" position="5 1 0" rotation="30 90 0" color="crimson" height="1" radius="1.5" material="" geometry="" id="play" play></a-cylinder>
+
          <script>
+           
+          function eggThrow() {
+            // console.log("Teste")
+              // Criar o ovo se ele não existir no DOM
+              let egg = document.getElementById('egg-minecraft');
+                  egg = document.createElement('a-entity');
+                  egg.setAttribute('id', 'egg-minecraft');
+                  egg.setAttribute('gltf-model', '#egg-minecraft');
+                  egg.setAttribute('scale', '0.1 0.1 0.1');
+                  egg.setAttribute('rotation', '0 90 0'); // Definir o ovo como uma esfera
+                  egg.setAttribute('position', '5 2 0'); // Definir a posição inicial do ovo
+                  document.querySelector('a-scene').appendChild(egg);
+
+              // Definir o destino (0, 0, 0)
+              const destino = { x: 0, y: 0, z: 0 };
+
+              destino.x = Math.floor(Math.random() * 3) - 1;  // Posição X entre -3 e 3
+              destino.y = -0.5;  // Posição Y fixa
+              destino.z = Math.floor(Math.random() * 3) - 2;  // Posição X entre -20 e 20
+
+              // Função para mover o ovo até o destino
+              function moverEgg() {
+                  egg.setAttribute('animation', {
+                      property: 'position',
+                      to: `${destino.x} ${destino.y} ${destino.z}`,
+                      dur: 700,  // Duração da animação (1 segundo)
+                      easing: 'easeInOutQuad'
+                  });
+              }
+
+              // Iniciar a animação
+              moverEgg();
+          }
+
+            
+            AFRAME.registerComponent(
+                        'play',{
+                            init:function(){
+                              this.el.addEventListener('mouseenter', function () {
+                                // Começar a mover o ovo enquanto o mouse estiver dentro do elemento
+                                animationInterval = setInterval(eggThrow, 1000);  // Executar a animação a cada 1 segundo
+                              });
+
+                              // Evento quando o mouse sai do elemento
+                              this.el.addEventListener('mouseleave', function () {
+                                // Parar a animação
+                                clearInterval(animationInterval);
+                              });
+                            }
+                        }
+                    );
             // Número de galinhas
             const numChickens = 5;
     
